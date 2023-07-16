@@ -19,7 +19,7 @@ Change default Edge settings for privacy, performance or other reasons.
   ```
   </details>
 
-- Inspect it, optionally edit it to your liking
+- Inspect it, optionally edit to your liking
 
 - Run it
 
