@@ -3,13 +3,20 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
 
-; Enable Microsoft Search in Bing suggestions in the address bar
-; https://bit.ly/edge-policies#addressbarmicrosoftsearchinbingproviderenabled
-"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+; Recommended settings
+; Comment out (prefix with ';') or remove lines with settings you don't want to change
+
+; Configure Automatic HTTPS
+; https://bit.ly/edge-policies#automatichttpsdefault
+"AutomaticHttpsDefault"=dword:00000002
 
 ; Continue running background apps after Microsoft Edge closes
 ; https://bit.ly/edge-policies#backgroundmodeenabled
 "BackgroundModeEnabled"=dword:00000000
+
+; Block third party cookies
+; https://bit.ly/edge-policies#blockthirdpartycookies
+"BlockThirdPartyCookies"=dword:00000001
 
 ; Send required and optional diagnostic data about browser usage
 ; https://bit.ly/edge-policies#diagnosticdata
@@ -23,6 +30,10 @@ Windows Registry Editor Version 5.00
 ; https://bit.ly/edge-policies#edgeshoppingassistantenabled
 "EdgeShoppingAssistantEnabled"=dword:00000000
 
+; Control communication with the Experimentation and Configuration Service
+; https://bit.ly/edge-policies#experimentationandconfigurationservicecontrol
+"ExperimentationAndConfigurationServiceControl"=dword:00000000
+
 ; Allow Microsoft News content on the new tab page
 ; https://bit.ly/edge-policies#newtabpagecontentenabled
 "NewTabPageContentEnabled"=dword:00000000
@@ -30,6 +41,10 @@ Windows Registry Editor Version 5.00
 ; Hide the default top sites from the new tab page
 ; https://bit.ly/edge-policies#newtabpagehidedefaulttopsites
 "NewTabPageHideDefaultTopSites"=dword:00000001
+
+; Configure the new tab page search box experience
+; https://bit.ly/edge-policies#newtabpagesearchbox
+"NewTabPageSearchBox"="redirect"
 
 ; Allow personalization of ads, Microsoft Edge, search, news and other Microsoft services
 ; by sending browsing history, favorites and collections, usage and other browsing data to Microsoft
@@ -51,3 +66,232 @@ Windows Registry Editor Version 5.00
 ; Enable startup boost
 ; https://bit.ly/edge-policies#startupboostenabled
 "StartupBoostEnabled"=dword:00000000
+
+
+; --------------------------------------------------------------
+
+
+; Optional settings, not applied by default
+; Uncomment (remove ';') lines with settings that you want to change
+
+; Enable Microsoft Search in Bing suggestions in the address bar
+; https://bit.ly/edge-policies#addressbarmicrosoftsearchinbingproviderenabled
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+
+; Suggest similar pages when a webpage can't be found
+; https://bit.ly/edge-policies#alternateerrorpagesenabled
+;"AlternateErrorPagesEnabled"=dword:00000000
+
+; Enable AutoFill for addresses
+; https://bit.ly/edge-policies#autofilladdressenabled
+;"AutofillAddressEnabled"=dword:00000000
+
+; Enable AutoFill for payment instruments
+; https://bit.ly/edge-policies#autofillcreditcardenabled
+;"AutofillCreditCardEnabled"=dword:00000000
+
+; Allow media autoplay for websites
+; https://bit.ly/edge-policies#autoplayallowed
+;"AutoplayAllowed"=dword:00000000
+
+; Block all ads on Bing search results
+; https://bit.ly/edge-policies#bingadssuppression
+;"BingAdsSuppression"=dword:00000001
+
+; Browser sign-in settings
+; https://bit.ly/edge-policies#browsersignin
+;"BrowserSignin"=dword:00000000
+
+; Clear cached images and files when Microsoft Edge closes
+; https://bit.ly/edge-policies#clearcachedimagesandfilesonexit
+;"ClearCachedImagesAndFilesOnExit"=dword:00000001
+
+; Configure the Share experience
+; https://bit.ly/edge-policies#configureshare
+;"ConfigureShare"=dword:00000001
+
+; Enable CryptoWallet feature
+; https://bit.ly/edge-policies#cryptowalletenabled
+;"CryptoWalletEnabled"=dword:00000000
+
+; Default geolocation setting
+; https://bit.ly/edge-policies#defaultgeolocationsetting
+;"DefaultGeolocationSetting"=dword:00000002
+
+; Control use of insecure content exceptions
+; https://bit.ly/edge-policies#defaultinsecurecontentsetting
+;"DefaultInsecureContentSetting"=dword:00000002
+
+; Default notification setting
+; https://bit.ly/edge-policies#defaultnotificationssetting
+;"DefaultNotificationsSetting"=dword:00000002
+
+; Default sensors setting
+; https://bit.ly/edge-policies#defaultsensorssetting
+;"DefaultSensorsSetting"=dword:00000002
+
+; Control use of the Web Bluetooth API
+; https://bit.ly/edge-policies#defaultwebbluetoothguardsetting
+;"DefaultWebBluetoothGuardSetting"=dword:00000002
+
+; Control use of the WebHID API
+; https://bit.ly/edge-policies#defaultwebhidguardsetting
+;"DefaultWebHidGuardSetting"=dword:00000002
+
+; Control use of the WebUSB API
+; https://bit.ly/edge-policies#defaultwebusbguardsetting
+;"DefaultWebUsbGuardSetting"=dword:00000002
+
+; Allow users to open files using the DirectInvoke protocol
+; https://bit.ly/edge-policies#directinvokeenabled
+;"DirectInvokeEnabled"=dword:00000000
+
+; DNS interception checks enabled
+; https://bit.ly/edge-policies#dnsinterceptionchecksenabled
+;"DNSInterceptionChecksEnabled"=dword:00000000
+
+; Enhance images enabled
+; https://bit.ly/edge-policies#edgeenhanceimagesenabled
+;"EdgeEnhanceImagesEnabled"=dword:00000000
+
+; Enable Follow service in Microsoft Edge
+; https://bit.ly/edge-policies#edgefollowenabled
+;"EdgeFollowEnabled"=dword:00000000
+
+; Allow users to configure Family safety and Kids Mode
+; https://bit.ly/edge-policies#familysafetysettingsenabled
+;"FamilySafetySettingsEnabled"=dword:00000000
+
+; Hide the First-run experience and splash screen
+; https://bit.ly/edge-policies#hidefirstrunexperience
+;"HideFirstRunExperience"=dword:00000000
+
+; Show Hubs Sidebar
+; https://bit.ly/edge-policies#hubssidebarenabled
+;"HubsSidebarEnabled"=dword:00000000
+
+; Configure Internet Explorer integration
+; https://bit.ly/edge-policies#internetexplorerintegrationlevel
+;"InternetExplorerIntegrationLevel"=dword:00000000
+
+; Enable Windows to search local Microsoft Edge browsing data
+; https://bit.ly/edge-policies#localbrowserdatashareenabled
+;"LocalBrowserDataShareEnabled"=dword:00000000
+
+; Allow suggestions from local providers
+; https://bit.ly/edge-policies#localprovidersenabled
+;"LocalProvidersEnabled"=dword:00000000
+
+; Enable network prediction
+; https://bit.ly/edge-policies#networkpredictionoptions
+;"NetworkPredictionOptions"=dword:00000002
+
+; Configure the background types allowed for the new tab page layout
+; https://bit.ly/edge-policies#newtabpageallowedbackgroundtypes
+;"NewTabPageAllowedBackgroundTypes"=dword:00000003
+
+; Enable preload of the new tab page for faster rendering
+; https://bit.ly/edge-policies#newtabpageprerenderenabled
+;"NewTabPagePrerenderEnabled"=dword:00000000
+
+; Allow quick links on the new tab page
+; https://bit.ly/edge-policies#newtabpagequicklinksenabled
+;"NewTabPageQuickLinksEnabled"=dword:00000000
+
+; Allow users to get a strong password suggestion whenever they are creating an account online
+; https://bit.ly/edge-policies#passwordgeneratorenabled
+;"PasswordGeneratorEnabled"=dword:00000000
+
+; Enable saving passwords to the password manager
+; https://bit.ly/edge-policies#passwordmanagerenabled
+;"PasswordManagerEnabled"=dword:00000000
+
+; Allow users to be alerted if their passwords are found to be unsafe
+; https://bit.ly/edge-policies#passwordmonitorallowed
+;"PasswordMonitorAllowed"=dword:00000000
+
+; Enable Password reveal button
+; https://bit.ly/edge-policies#passwordrevealenabled
+;"PasswordRevealEnabled"=dword:00000000
+
+; Enables Microsoft Edge mini menu
+; https://bit.ly/edge-policies#quicksearchshowminimenu
+;"QuickSearchShowMiniMenu"=dword:00000000
+
+; Manage QuickView Office files capability in Microsoft Edge
+; https://bit.ly/edge-policies#quickviewofficefilesenabled
+;"QuickViewOfficeFilesEnabled"=dword:00000000
+
+; Enable search suggestions
+; https://bit.ly/edge-policies#searchsuggestenabled
+;"SearchSuggestEnabled"=dword:00000000
+
+; Allow notifications to set Microsoft Edge as default PDF reader
+; https://bit.ly/edge-policies#showpdfdefaultrecommendationsenabled
+;"ShowPDFDefaultRecommendationsEnabled"=dword:00000000
+
+; Allow feature recommendations and browser assistance notifications from Microsoft Edge
+; https://bit.ly/edge-policies#showrecommendationsenabled
+;"ShowRecommendationsEnabled"=dword:00000000
+
+; Allow users to configure Site safety services
+; https://bit.ly/edge-policies#sitesafetyservicesenabled
+;"SiteSafetyServicesEnabled"=dword:00000000
+
+; Enable Microsoft Defender SmartScreen DNS requests
+; https://bit.ly/edge-policies#smartscreendnsrequestsenabled
+;"SmartScreenDnsRequestsEnabled"=dword:00000000
+
+; Configure Microsoft Defender SmartScreen
+; https://bit.ly/edge-policies#smartscreenenabled
+;"SmartScreenEnabled"=dword:00000000
+
+; Enable spellcheck
+; https://bit.ly/edge-policies#spellcheckenabled
+;"SpellcheckEnabled"=dword:00000000
+
+; Choose whether users can receive customized background images and text,
+; suggestions, notifications, and tips for Microsoft services
+; https://bit.ly/edge-policies#spotlightexperiencesandrecommendationsenabled
+;"SpotlightExperiencesAndRecommendationsEnabled"=dword:00000000
+
+; Tab Services enabled
+; https://bit.ly/edge-policies#tabservicesenabled
+;"TabServicesEnabled"=dword:00000000
+
+; Block tracking of users' web-browsing activity
+; https://bit.ly/edge-policies#trackingprevention
+;"TrackingPrevention"=dword:00000003
+
+; Enable Translate
+; https://bit.ly/edge-policies#translateenabled
+;"TranslateEnabled"=dword:00000000
+
+; Configure Edge TyposquattingChecker
+; https://bit.ly/edge-policies#typosquattingcheckerenabled
+;"TyposquattingCheckerEnabled"=dword:00000000
+
+; Allow user feedback
+; https://bit.ly/edge-policies#userfeedbackallowed
+;"UserFeedbackAllowed"=dword:00000000
+
+; Visual search enabled
+; https://bit.ly/edge-policies#visualsearchenabled
+;"VisualSearchEnabled"=dword:00000000
+
+; Enable the Search bar
+; https://bit.ly/edge-policies#webwidgetallowed
+;"WebWidgetAllowed"=dword:00000000
+
+; Allow the Search bar at Windows startup
+; https://bit.ly/edge-policies#webwidgetisenabledonstartup
+;"WebWidgetIsEnabledOnStartup"=dword:00000000
+
+; Set WPAD optimization
+; https://bit.ly/edge-policies#wpadquickcheckenabled
+;"WPADQuickCheckEnabled"=dword:00000000
+
+
+; Install uBlock Origin ad blocker
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
+;"1"="odfafepnkmbhccpbejgmiehpchacaeak"
