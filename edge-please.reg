@@ -1,0 +1,53 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+
+; Enable Microsoft Search in Bing suggestions in the address bar
+; https://bit.ly/edge-policies#addressbarmicrosoftsearchinbingproviderenabled
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+
+; Continue running background apps after Microsoft Edge closes
+; https://bit.ly/edge-policies#backgroundmodeenabled
+"BackgroundModeEnabled"=dword:00000000
+
+; Send required and optional diagnostic data about browser usage
+; https://bit.ly/edge-policies#diagnosticdata
+"DiagnosticData"=dword:00000000
+
+; Enable the Collections feature
+; https://bit.ly/edge-policies#edgecollectionsenabled
+"EdgeCollectionsEnabled"=dword:00000000
+
+; Shopping in Microsoft Edge Enabled
+; https://bit.ly/edge-policies#edgeshoppingassistantenabled
+"EdgeShoppingAssistantEnabled"=dword:00000000
+
+; Allow Microsoft News content on the new tab page
+; https://bit.ly/edge-policies#newtabpagecontentenabled
+"NewTabPageContentEnabled"=dword:00000000
+
+; Hide the default top sites from the new tab page
+; https://bit.ly/edge-policies#newtabpagehidedefaulttopsites
+"NewTabPageHideDefaultTopSites"=dword:00000001
+
+; Allow personalization of ads, Microsoft Edge, search, news and other Microsoft services
+; by sending browsing history, favorites and collections, usage and other browsing data to Microsoft
+; https://bit.ly/edge-policies#personalizationreportingenabled
+"PersonalizationReportingEnabled"=dword:00000000
+
+; Enable full-tab promotional content
+; https://bit.ly/edge-policies#promotionaltabsenabled
+"PromotionalTabsEnabled"=dword:00000000
+
+; Enable resolution of navigation errors using a web service
+; https://bit.ly/edge-policies#resolvenavigationerrorsusewebservice
+"ResolveNavigationErrorsUseWebService"=dword:00000000
+
+; Show Microsoft Rewards experiences
+; https://bit.ly/edge-policies#showmicrosoftrewards
+"ShowMicrosoftRewards"=dword:00000000
+
+; Enable startup boost
+; https://bit.ly/edge-policies#startupboostenabled
+"StartupBoostEnabled"=dword:00000000
