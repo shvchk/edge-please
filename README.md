@@ -15,3 +15,10 @@ Change default Edge settings for privacy, performance or other reasons.
   Every setting has a description and a link to official docs
 
 - Run it
+
+
+### Similar projects
+
+- [FuckEdge by Dreista](https://github.com/Dreista/FuckEdge)
+- [Edge Hardening by Douloureux](https://github.com/Douloureux/MS-Edge-Hardening)
+- [Melody Script by jbara2002](https://github.com/jbara2002/melody_windows/blob/master/MelodyScript.Settings/Browser%20Configuration/Edge/Microsoft%20Edge%20Tweaks.reg)
