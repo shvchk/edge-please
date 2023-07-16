@@ -2,6 +2,10 @@
 
 Change default Edge settings for privacy, performance or other reasons.
 
+- Sane defaults out of the box: ~15 recommended settings
+- Can be optionally changed to your liking: 50+ more settings, not applied by default
+- Every setting has a description and a link to official docs
+
 
 ### Usage
 
@@ -13,10 +17,6 @@ Change default Edge settings for privacy, performance or other reasons.
   ```
 
 - Inspect it, optionally edit it to your liking
-
-  By default, just some sane defaults are enabled. If that's all you want, go to the next step.
-
-  If you want more, Optional settings section has more than 50 settings that you can change.
 
 - Run it
 
