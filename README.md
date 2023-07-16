@@ -11,8 +11,9 @@ Change default Edge settings for privacy, performance or other reasons.
   irm https://github.com/shvchk/edge-please/raw/main/edge-please.reg -OutFile ~/Downloads/edge-please.reg
   ```
 
-- Inspect it, change or remove what you don't like  
-  Every setting has a description and a link to official docs
+- Inspect it, optionally edit it to your liking
+
+  By default, ~15 recommended settings are enabled. If you are fine with that, go to the next step. If you want more, Optional settings section has more than 50 settings that you can change. Every setting has a description and a link to official docs.
 
 - Run it
 
