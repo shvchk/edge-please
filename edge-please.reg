@@ -76,7 +76,7 @@ Windows Registry Editor Version 5.00
 
 ; Enable Microsoft Search in Bing suggestions in the address bar
 ; https://bit.ly/edge-policies#addressbarmicrosoftsearchinbingproviderenabled
-"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+;"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
 
 ; Suggest similar pages when a webpage can't be found
 ; https://bit.ly/edge-policies#alternateerrorpagesenabled
